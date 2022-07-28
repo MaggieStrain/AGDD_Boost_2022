@@ -410,6 +410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2552492074806449474, guid: 457ea3dea6897214a8ac741650aefcec, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 2920125154601650876, guid: 457ea3dea6897214a8ac741650aefcec, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -524,6 +528,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1603266612849355052, guid: 457ea3dea6897214a8ac741650aefcec, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2552492074806449474, guid: 457ea3dea6897214a8ac741650aefcec, type: 3}
       propertyPath: m_Name
       value: Launch Pad
@@ -630,6 +638,22 @@ PrefabInstance:
     - target: {fileID: 6033158147971422373, guid: e8a2a475d0996d048b1df5fd8ffd9d97, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980517428662605953, guid: e8a2a475d0996d048b1df5fd8ffd9d97, type: 3}
+      propertyPath: period
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980517428662605953, guid: e8a2a475d0996d048b1df5fd8ffd9d97, type: 3}
+      propertyPath: movementFactor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980517428662605953, guid: e8a2a475d0996d048b1df5fd8ffd9d97, type: 3}
+      propertyPath: movementVector.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980517428662605953, guid: e8a2a475d0996d048b1df5fd8ffd9d97, type: 3}
+      propertyPath: movementVector.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
